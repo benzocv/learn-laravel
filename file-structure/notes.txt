@@ -1,0 +1,6 @@
+Html
+Model
+Controller
+Routing
+File store
+database
