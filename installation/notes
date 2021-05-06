@@ -2,3 +2,11 @@
  - php -v //to check php version 
  - php composer.phar //to check composer 
 
+ //to install laravel 
+
+ - composer global require laravel/installer //with laravel installer
+
+ - to create new laravel project 
+
+ 
+
