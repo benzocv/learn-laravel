@@ -1,0 +1,4 @@
+ - Install composer 
+ - php -v //to check php version 
+ - php composer.phar //to check composer 
+
