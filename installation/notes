@@ -10,3 +10,7 @@
 - php artisan server  //to run the server 
 
 
+//install via composer 
+-composer create-project laravel/laravel example-app
+-cd example-app
+-php artisan serve
