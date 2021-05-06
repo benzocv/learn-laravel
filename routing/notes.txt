@@ -1,0 +1,6 @@
+what is routing?
+-mapping laravel page with specifin url 
+
+How to routing?
+- ther is two thing in routing 
+url,page

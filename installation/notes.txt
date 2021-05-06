@@ -7,7 +7,7 @@
  - composer global require laravel/installer //with laravel installer
 
  - to create new laravel project 
-- php artisan server  //to run the server 
+- php artisan serve //to run the server 
 
 
 //install via composer 
