@@ -4,3 +4,7 @@ what is routing?
 How to routing?
 - ther is two thing in routing 
 url,page
+
+Route::get('/welcome', function () {
+    return view('welcome');
+});
