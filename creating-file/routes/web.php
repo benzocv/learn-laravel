@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::get('/welcome', function () {
     return view('welcome');
 });
+
+// *** short method of routing ***
+Route :: view("about",'about');
+
+
