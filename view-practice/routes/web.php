@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UsersController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,7 @@ Route::get('/', function () {
 Route::get('/users/{name}', function ($name) {
     return view('users',['name'=>$name]);
 });
+
+
+//calling from controller 
+Route::get("users-controller",[UsersController::class,'loadView']);
