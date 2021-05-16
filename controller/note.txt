@@ -1,0 +1,4 @@
+- controller take data from the database and show it to the view
+
+//how to create controller 
+- php artisan make:controller Users

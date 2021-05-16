@@ -4,13 +4,17 @@
 
  //to install laravel 
 
+
+
+
+// to create new laravel project 
  - composer global require laravel/installer //with laravel installer
 
- - to create new laravel project 
 - php artisan serve //to run the server 
 
 
-//install via composer 
+//create new laravel project via composer 
+
 -composer create-project laravel/laravel example-app
 -cd example-app
 -php artisan serve
