@@ -22,6 +22,6 @@ Route::get('/welcome', function () {
 });
 
 // *** short method of routing ***
-Route :: view("about",'about');
+Route :: view("about",'about'); //first parameter is link
 
 
