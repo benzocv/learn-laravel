@@ -12,3 +12,12 @@
     use App\Http\Controllers\Users;
 - Calling a controller function from routes 
     Route::get("users",[Users::class,'index']);
+
+
+// how to pass data with controler
+Route::get("Data/{name}",[Data::class,'index']);
+    //function in data
+      public function index($name){
+        echo $name;
+        echo "this is index function from data controller";
+    }
