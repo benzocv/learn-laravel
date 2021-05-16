@@ -8,3 +8,13 @@ url,page
 Route::get('/welcome', function () {
     return view('welcome');
 });
+
+
+
+// here how to pass the data with url 
+
+// here the link would be http://127.0.0.1:8000/data2
+
+Route::get('/data{name}', function ($name) {    
+    return view('data',['name']=>$name);
+});

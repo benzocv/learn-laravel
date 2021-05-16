@@ -29,9 +29,8 @@ Route :: view("about",'about'); //first parameter is link
 // here the link would be http://127.0.0.1:8000/data2
 
 
-Route::get('/data{name}', function ($name) {
-    echo $name;
-    return view('data');
+Route::get('/data{name}', function ($name) {    
+    return view('data',['name'=>$name]);
 });
 
 
