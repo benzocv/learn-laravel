@@ -18,3 +18,8 @@ Route::get('/welcome', function () {
 Route::get('/data{name}', function ($name) {    
     return view('data',['name']=>$name);
 });
+
+
+//how we link
+
+<a href="welcome">welcome</a><br>

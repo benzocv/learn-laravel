@@ -34,3 +34,7 @@ Route::get('/data{name}', function ($name) {
 });
 
 
+// on the route we are learning how to a href ?
+Route::get('/link', function () {
+    return view('link');
+});
