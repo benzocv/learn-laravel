@@ -2,3 +2,9 @@
 
 //how to create controller 
 - php artisan make:controller Users
+- another method you can copy paste the content and change name too
+
+
+// flow 
+
+- creating function in controller
