@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+// routing view 
+// Route::get('/users', function () {
+//     return view('users');
+// });
+
+
+// passing name parameter with routing 
+Route::get('/users/{name}', function ($name) {
+    return view('users',['name'=>$name]);
+});
