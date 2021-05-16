@@ -25,3 +25,13 @@ Route::get('/welcome', function () {
 Route :: view("about",'about'); //first parameter is link
 
 
+//here we are passing data with url 
+// here the link would be http://127.0.0.1:8000/data2
+
+
+Route::get('/data{name}', function ($name) {
+    echo $name;
+    return view('data');
+});
+
+
