@@ -8,3 +8,7 @@
 // flow 
 
 - creating function in controller
+- Call controller files in routes web.php
+    use App\Http\Controllers\Users;
+- Calling a controller function from routes 
+    Route::get("users",[Users::class,'index']);
