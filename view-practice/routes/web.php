@@ -32,4 +32,4 @@ Route::get('/users/{name}', function ($name) {
 
 
 //calling from controller 
-Route::get("users-controller",[UsersController::class,'loadView']);
+Route::get("users-controller/{name}",[UsersController::class,'loadView']);
