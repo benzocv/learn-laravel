@@ -38,3 +38,10 @@ Route::get('/data{name}', function ($name) {
 Route::get('/link', function () {
     return view('link');
 });
+
+
+// this is how we redirect page 
+Route::get('/redirect', function () {
+    // return view('redirect');
+    return redirect('about');
+});

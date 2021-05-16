@@ -23,3 +23,9 @@ Route::get('/data{name}', function ($name) {
 //how we link
 
 <a href="welcome">welcome</a><br>
+
+
+//how to do redirection 
+Route::get('/redirect', function () {
+    return redirect('about');
+});
