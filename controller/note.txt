@@ -21,3 +21,6 @@ Route::get("Data/{name}",[Data::class,'index']);
         echo $name;
         echo "this is index function from data controller";
     }
+
+
+// you can also use controller for creating api 
