@@ -8,6 +8,6 @@ class UsersController extends Controller
 {
     function viewLoad(){
         // return view('users',['users'=>['anil','ambani','modi','shah']]);
-        return view('users',['user'=>'anzar']);
+        return view('users',['user'=>'sam']);
     }
 }

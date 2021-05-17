@@ -12,3 +12,17 @@ function viewLoad(){
 
 
 //if condition 
+
+@if($user == 'anzar')
+<h3>Hi {{$user}}</h3>
+@endif
+
+
+
+//else if condition
+
+ @if($user == 'anzar')
+<h3>Hi {{$user}}</h3>
+@elseif($user == 'sam')
+<h3>Hlo {{$user}}</h3>
+@endif
