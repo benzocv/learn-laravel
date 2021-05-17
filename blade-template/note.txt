@@ -43,3 +43,7 @@ function viewLoad(){
 var data = @json($users);
 console.log(data);
 </script>
+
+
+//identify by unique token 
+@csrf

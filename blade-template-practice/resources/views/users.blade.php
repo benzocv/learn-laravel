@@ -25,6 +25,8 @@
 
 @include('inner')
 
+@csrf
+
 <script>
 var data = @json($users);
 console.log(data);
