@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class UsersController extends Controller
 {
     function viewLoad(){
-        return view('users');
+        return view('users',['users'=>['anil','ambani','modi','shah']]);
     }
 }

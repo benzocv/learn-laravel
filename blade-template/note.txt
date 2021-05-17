@@ -1,1 +1,11 @@
 - compact code 
+
+//in the UsersController 
+
+function viewLoad(){
+        return view('users',['users'=>['anil','ambani','modi','shah']]);
+    }
+
+
+//counting method 
+- {{count($users)}}

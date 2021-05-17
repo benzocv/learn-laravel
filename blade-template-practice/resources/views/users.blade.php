@@ -1,1 +1,1 @@
-<h1>Users page</h1>
+<h1>Users page {{count($users)}}</h1>
