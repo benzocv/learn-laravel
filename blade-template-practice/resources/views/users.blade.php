@@ -24,3 +24,8 @@
 @endforeach  --}}
 
 @include('inner')
+
+<script>
+var data = @json($users);
+console.log(data);
+</script>

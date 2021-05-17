@@ -36,3 +36,10 @@ function viewLoad(){
 
 //how to use inner view 
 - @include('inner')
+
+
+//how to pass dat to script 
+<script>
+var data = @json($users);
+console.log(data);
+</script>
