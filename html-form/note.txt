@@ -24,3 +24,12 @@ $req->validate([
 
 //how to print error in the seperate form 
 <span style="color:red">@error('username'){{$message}} @enderror</span>
+
+
+
+//other validations
+
+  $req->validate([
+            'username'=>'required | max:10',
+            'userpassword'=>'required | min:5'
+        ]);

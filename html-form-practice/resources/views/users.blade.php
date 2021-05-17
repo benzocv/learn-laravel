@@ -18,7 +18,7 @@
 <span style="color:red">@error('username'){{$message}} @enderror</span>
 <br><br>
 <input type="password" name="userpassword" placeholder="Enter user password">
-<span style="color:red">@error('password'){{$message}} @enderror</span>
+<span style="color:red">@error('userpassword'){{$message}} @enderror</span>
 <br><br>
 <button type="submit"> Login </button>
 </form>
