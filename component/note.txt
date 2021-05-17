@@ -7,3 +7,14 @@
 
 //how to use header 
 - to use component just <x-header/>
+
+
+//how to pass data to the header 
+<x-header data="about component header"/>
+- go to componnet php file 
+
+public $title;
+    public function __construct($data)
+    {
+        $this->title=$data;
+    }
