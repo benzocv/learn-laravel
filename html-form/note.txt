@@ -1,0 +1,3 @@
+- you have to use csrf token in the form 
+- to get data into controller there is a option for Request 
+- this method can be use return $req->input();
