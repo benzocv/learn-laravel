@@ -1,3 +1,10 @@
 - you have to use csrf token in the form 
 - to get data into controller there is a option for Request 
 - this method can be use return $req->input();
+
+//how to validate form data 
+- use validate function in controller
+$req->validate([
+            'username'->'required',
+            'userpassword'->'required'
+        ]);

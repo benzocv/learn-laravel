@@ -7,7 +7,13 @@ use Illuminate\Http\Request;
 class UsersController extends Controller
 {
     function getData(Request $req){
+
+        $req->validate([
+            'username'->'required',
+            'userpassword'->'required'
+        ]);
+
         return $req->input();
-        return "Form data will be here";
+        
     }
 }
