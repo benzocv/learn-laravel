@@ -26,3 +26,9 @@ function viewLoad(){
 @elseif($user == 'sam')
 <h3>Hlo {{$user}}</h3>
 @endif
+
+
+//for loop 
+@for($i=0;$i<10;$i++)
+<h4>{{$i}}</h4>
+@endfor
