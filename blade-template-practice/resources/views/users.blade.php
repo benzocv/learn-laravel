@@ -4,4 +4,6 @@
 <h3>Hi {{$user}}</h3>
 @elseif($user == 'sam')
 <h3>Hlo {{$user}}</h3>
+@else
+<h3>Unknown user</h3>
 @endif
