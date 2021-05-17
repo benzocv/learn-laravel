@@ -1,0 +1,9 @@
+- It's like a function but in more advance way 
+- To creating reusable files like header 
+
+//to create component 
+- php artisan make:component ComponentNamec
+
+
+//how to use header 
+- to use component just <x-header/>
