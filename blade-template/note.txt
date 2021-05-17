@@ -9,3 +9,6 @@ function viewLoad(){
 
 //counting method 
 - {{count($users)}}
+
+
+//if condition 
