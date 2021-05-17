@@ -8,3 +8,6 @@ $req->validate([
             'username'->'required',
             'userpassword'->'required'
         ]);
+
+// to check errors
+{{$errors}}
