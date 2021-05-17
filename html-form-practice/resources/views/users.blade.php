@@ -1,6 +1,13 @@
 <h1>User login</h1>
 
-{{$errors}}
+
+@if($errors->any())
+@foreach($errors->all() as $err)
+<li>{{$err}}</li>
+@endforeach
+@endif
+
+
 <form action="users" method="POST">
 
 @csrf
