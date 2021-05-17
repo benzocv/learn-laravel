@@ -11,3 +11,16 @@ $req->validate([
 
 // to check errors
 {{$errors}}
+
+//how to print error in list format 
+
+@if($errors->any())
+@foreach($errors->all() as $err)
+<li>{{$err}}</li>
+@endforeach
+@endif
+
+
+
+//how to print error in the seperate form 
+<span style="color:red">@error('username'){{$message}} @enderror</span>
