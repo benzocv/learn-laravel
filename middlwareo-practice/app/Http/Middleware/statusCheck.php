@@ -16,8 +16,8 @@ class statusCheck
      */
     public function handle(Request $request, Closure $next)
     {
-        if($request->status && $request->status != 'rich'){
-            return view('i-am-poor');
+        if($request->status && $request->status !== 'rich'){
+            return redirect('i-am-poor');
         }
         return $next($request);
     }

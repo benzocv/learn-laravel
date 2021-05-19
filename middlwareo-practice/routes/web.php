@@ -46,6 +46,13 @@ Route::group(['middleware'=>['pagesWithInterest']],function(){
 });
 
 
-Route::get('/my-status', function () {
-    return view('my-status');
+
+//Route middleware
+//Fun-Fact: Route middleware can be apply on two routes also
+
+Route::get('/i-am-poor', function () {
+    return view('i-am-poor');
 });
+
+
+Route::view('my-status','my-status')->middleware('statusCheckMiddleware');
