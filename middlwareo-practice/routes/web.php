@@ -44,3 +44,8 @@ Route::group(['middleware'=>['pagesWithInterest']],function(){
     });
     //you can use extra routes here also 
 });
+
+
+Route::get('/my-status', function () {
+    return view('my-status');
+});
