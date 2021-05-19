@@ -1,0 +1,9 @@
+What is middleware?
+- Simple code that can filter out users request. 
+- access control provide also 
+
+
+How may types of middleware?
+- Global
+- Route 
+- Group 
