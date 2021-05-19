@@ -26,4 +26,12 @@ How to condition apply with middleware?
 
 What is group middleware?
 - To apply some middleware on specific routes is called group middleware.
+
+
+How to register group middleware?
 - We need to Register middleware in the group middleware array.
+  'pagesWithInterest' => [
+            \App\Http\Middleware\intrestCheck::class,
+        ],
+
+

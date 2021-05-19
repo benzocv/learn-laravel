@@ -45,7 +45,7 @@ class Kernel extends HttpKernel
         ],
         
         'pagesWithInterest' => [
-            \App\Http\Middleware\intrestCheck::class,
+            \App\Http\Middleware\interestCheck::class,
         ],
         
     ];
