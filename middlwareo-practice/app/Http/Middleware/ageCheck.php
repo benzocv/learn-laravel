@@ -16,6 +16,7 @@ class ageCheck
      */
     public function handle(Request $request, Closure $next)
     {
+        echo "<h1>This is from Middleware</h1>";
         return $next($request);
     }
 }

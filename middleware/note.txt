@@ -11,3 +11,6 @@ How may types of middleware?
 
 How to create middleware?
 -php artisan make:middleware ageCheck
+-Register this middleware in the kernal 
+
+- You can add things in the middleware in handle function 
