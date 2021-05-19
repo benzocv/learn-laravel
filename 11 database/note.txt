@@ -1,1 +1,3 @@
 //practice databae user added
+
+- update credentials in .env file 
