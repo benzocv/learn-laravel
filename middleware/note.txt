@@ -7,3 +7,7 @@ How may types of middleware?
 - Global
 - Route 
 - Group 
+
+
+How to create middleware?
+-php artisan make:middleware ageCheck
