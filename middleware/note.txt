@@ -45,3 +45,7 @@ Route::group(['middleware'=>['pagesWithInterest']],function(){
 });
 
 
+What is route middleware?
+- Route middleware apply only on one single page or we can apply it with route 
+
+

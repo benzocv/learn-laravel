@@ -42,4 +42,5 @@ Route::group(['middleware'=>['pagesWithInterest']],function(){
     Route::get('/interest-check', function () {
         return view('interest-check');
     });
+    //you can use extra routes here also 
 });
