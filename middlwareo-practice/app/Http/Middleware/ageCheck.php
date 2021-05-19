@@ -16,7 +16,9 @@ class ageCheck
      */
     public function handle(Request $request, Closure $next)
     {
-        echo "<h1>This is from Middleware</h1>";
+        if($request->age && $request->age<18){
+            return redirect('noaccess');
+        }
         return $next($request);
     }
 }

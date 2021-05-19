@@ -14,3 +14,10 @@ How to create middleware?
 -Register this middleware in the kernal 
 
 - You can add things in the middleware in handle function 
+
+
+How to condition apply with middleware?
+- In handle function 
+ if($request->age && $request->age<18){
+            return redirect('noaccess');
+        }
