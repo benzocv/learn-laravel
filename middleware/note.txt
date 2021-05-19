@@ -21,3 +21,8 @@ How to condition apply with middleware?
  if($request->age && $request->age<18){
             return redirect('noaccess');
         }
+
+
+
+What is group middleware?
+- To apply some middleware on specific routes is called group middleware.
