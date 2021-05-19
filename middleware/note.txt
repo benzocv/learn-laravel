@@ -34,4 +34,14 @@ How to register group middleware?
             \App\Http\Middleware\intrestCheck::class,
         ],
 
+How to use group middleware?
+- Need to create group routes in route 
+
+
+Route::group(['middleware'=>['pagesWithInterest']],function(){
+    Route::get('/interest-check', function () {
+        return view('interest-check');
+    });
+});
+
 

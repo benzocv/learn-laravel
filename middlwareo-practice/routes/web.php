@@ -34,3 +34,12 @@ Route::get('/noaccess', function () {
 Route::get('/not-interested', function () {
     return view('not-interested');
 });
+
+
+
+
+Route::group(['middleware'=>['pagesWithInterest']],function(){
+    Route::get('/interest-check', function () {
+        return view('interest-check');
+    });
+});
