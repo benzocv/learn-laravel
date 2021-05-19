@@ -49,3 +49,17 @@ What is route middleware?
 - Route middleware apply only on one single page or we can apply it with route 
 
 
+How to register route middleware in kernal?
+- 'statusCheckMiddleware' => \App\Http\Middleware\statusCheck::class,
+
+How to use route middleware?
+//Route middleware
+//Fun-Fact: Route middleware can be apply on two routes also
+
+Route::get('/i-am-poor', function () {
+    return view('i-am-poor');
+});
+
+
+Route::view('my-status','my-status')->middleware('statusCheckMiddleware');
+
