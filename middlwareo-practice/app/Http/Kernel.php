@@ -43,6 +43,11 @@ class Kernel extends HttpKernel
             'throttle:api',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
+        
+        'pagesWithInterest' => [
+            \App\Http\Middleware\intrestCheck::class,
+        ],
+        
     ];
 
     /**
