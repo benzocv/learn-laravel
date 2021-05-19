@@ -1,3 +1,12 @@
 //practice databae user added
 
 - update credentials in .env file 
+- create controller
+- give path of that controller in the route file
+Route::get('users',[UserController::class,'index']);
+
+- import database file in controller
+use Illuminate\Support\Facades\DB;
+
+- fetch the data 
+return DB::select("select * from users");
