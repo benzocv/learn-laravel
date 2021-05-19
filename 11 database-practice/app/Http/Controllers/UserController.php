@@ -8,6 +8,6 @@ use Illuminate\Support\Facades\DB;
 class UserController extends Controller
 {
     function index(){
-        echo 'Hello';
+        return DB::select("select * from users");
     }
 }
