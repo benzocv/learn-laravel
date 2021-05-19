@@ -30,3 +30,7 @@ Route::get('/home', function () {
 Route::get('/noaccess', function () {
     return view('noaccess');
 });
+
+Route::get('/not-interested', function () {
+    return view('not-interested');
+});
