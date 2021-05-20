@@ -7,3 +7,8 @@ users                      user
 employees                  employee 
 
 #note : table shold be a plural and model name should be singular 
+
+You can define database structure in model 
+Business logic also be done in model
+
+//update .env file 
