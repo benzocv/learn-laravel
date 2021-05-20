@@ -1,4 +1,4 @@
-//practice databae user added
+//practice database user added
 
 - update credentials in .env file 
 - create controller

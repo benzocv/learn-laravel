@@ -1,0 +1,9 @@
+What is model?
+it is used to connect laravel with database 
+model map the database table name 
+
+DB table                  Model name
+users                      user
+employees                  employee 
+
+#note : table shold be a plural and model name should be singular 
