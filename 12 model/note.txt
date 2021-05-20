@@ -12,3 +12,10 @@ You can define database structure in model
 Business logic also be done in model
 
 //update .env file 
+
+
+How to create model?
+php artisan make:model User 
+
+
+//create controller to fetch the data 
