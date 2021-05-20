@@ -19,3 +19,8 @@ php artisan make:model User
 
 
 //create controller to fetch the data 
+
+
+//If you want custom name of model and table you need to declare public varibale 
+
+public $table = "abcd";
