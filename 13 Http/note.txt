@@ -11,3 +11,7 @@ How to use Http Client
 - write a code to get data from 
 - return Http:get("https://reqres.in/api/users?page=1"); 
 - create view for the data
+- create variable in controller instead of return 
+- pass the data to the view from the controller 
+$collection = Http::get("https://reqres.in/api/users?page=1");
+return view('users',['collection'=>$collection['data']]);

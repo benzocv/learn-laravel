@@ -6,4 +6,4 @@
     <td>Email</td>
     <td>Profile Photo</td>
 </tr>
-</table>
+</table> 
