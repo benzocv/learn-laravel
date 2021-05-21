@@ -18,3 +18,4 @@ OPTIONS
 
 
 - We need two thing controller and the view 
+- Create form in view 
