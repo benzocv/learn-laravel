@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controller\UserController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,4 +24,4 @@ Route::get('/user', function () {
 });
 
 
-route::method_name("users",['UserController'::class,'testRequest']);
+route::get("users",[UserController::class,'testRequest']);
