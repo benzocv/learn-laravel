@@ -27,3 +27,12 @@ Route::get('/profile', function () {
 });
 
 route::post("login",[UserAuth::class,'UserLogin']);
+
+
+
+Route::get('/logout', function () {
+    if(session()->has('email')){
+        session()->pull('email');
+    }
+    return redirect('login');
+});
