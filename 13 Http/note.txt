@@ -5,4 +5,8 @@ What is http client
 
 How to use Http Client 
 - Create controller 
-- 
+- php artisan make:controller UserController
+- Import http in the controller
+- use Illuminate\Support\Facades\Http;
+- write a code to get data from 
+- return Http:get("https://reqres.in/api/users?page=1"); 
