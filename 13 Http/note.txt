@@ -1,0 +1,8 @@
+What is http client 
+- Http client helps us to create view from the api 
+- Its basically request to an api and convert the response into the view form 
+
+
+How to use Http Client 
+- Create controller 
+- 
