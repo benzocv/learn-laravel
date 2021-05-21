@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 class UserAuth extends Controller
 {
     function UserLogin(Request $req){
-        $req->input();
+        return $req->input();
+        
     }
 }
