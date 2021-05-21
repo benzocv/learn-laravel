@@ -1,0 +1,35 @@
+- create view and give it a route 
+- create controller 
+
+//php artisan make:controller UserAuth
+- define route for the same 
+
+- to save data into session collect request data in a variable 
+//$req->session()->put('email',$data['email']);
+
+- to view if the data saved or not
+//echo session('email');
+
+- creating a profile page to see session data on other page 
+//<h2>Hello, {{session('user')}}</h2>
+
+
+- how to create logout
+
+Route::get('/logout', function () {
+    if(session()->has('email')){
+        session()->pull('email');
+    }
+    return redirect('login');
+});
+
+
+- cant access login page after one time login
+Route::get('/login', function () {
+    if(session()->has('email')){
+        return redirect('profile');
+    }
+    return view('login');
+});
+
+- how to restrict users from login the page 
