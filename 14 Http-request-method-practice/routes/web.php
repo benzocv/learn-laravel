@@ -26,3 +26,4 @@ Route::get('/user', function () {
 
 route::get("users",[UserController::class,'testRequest']);
 route::post("users",[UserController::class,'testRequest']);
+route::put("users",[UserController::class,'testRequest']);
