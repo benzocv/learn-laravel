@@ -20,3 +20,10 @@ OPTIONS
 - We need two thing controller and the view 
 - Create form in view 
 - Create controller
+php artisan make:controller UserController 
+- create method in controller
+function testRequest(Request $req){  //here we are getting data from request 
+        return "hello from controller";
+    }
+- make path of controller in route
+route::method_name("users",['UserController'::class,'testRequest']); //this is the format of handling any type of request method method_name is dynamic
