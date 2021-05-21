@@ -15,3 +15,14 @@ How to use Http Client
 - pass the data to the view from the controller 
 $collection = Http::get("https://reqres.in/api/users?page=1");
 return view('users',['collection'=>$collection['data']]);
+- create foreach loop for the data
+@foreach ($collection as $item)
+
+<tr>
+    <td>{{$item['id']}}</td>
+    <td>{{$item['first_name']}}</td>
+    <td>{{$item['email']}}</td>
+    <td><img src="{{$item['avatar']}}" alt=""></td>
+
+</tr>
+@endforeach
