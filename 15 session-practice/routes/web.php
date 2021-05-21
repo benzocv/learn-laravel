@@ -18,9 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
+// Route::get('/login', function () {
+//     return view('login');
+// });
 
 Route::get('/profile', function () {
     return view('profile');
@@ -29,6 +29,12 @@ Route::get('/profile', function () {
 route::post("login",[UserAuth::class,'UserLogin']);
 
 
+Route::get('/login', function () {
+    if(session()->has('email')){
+        return redirect('profile');
+    }
+    return view('login');
+});
 
 Route::get('/logout', function () {
     if(session()->has('email')){
