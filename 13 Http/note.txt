@@ -10,3 +10,4 @@ How to use Http Client
 - use Illuminate\Support\Facades\Http;
 - write a code to get data from 
 - return Http:get("https://reqres.in/api/users?page=1"); 
+- create view for the data
