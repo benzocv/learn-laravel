@@ -1,2 +1,20 @@
 What is Http Request Method?
 - There is many more request methods available in laravel instead of just get and put. 
+
+
+What are the methods laravel has?
+
+GET
+POST
+
+PUT
+DELETE
+HEAD
+PATCH
+OPTIONS
+
+
+//lets practice it step by step 
+
+
+- We need two thing controller and the view 
