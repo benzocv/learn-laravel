@@ -22,4 +22,8 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/profile', function () {
+    return view('profile');
+});
+
 route::post("login",[UserAuth::class,'UserLogin']);
