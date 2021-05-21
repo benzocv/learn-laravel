@@ -1,0 +1,2 @@
+What is Http Request Method?
+- There is many more request methods available in laravel instead of just get and put. 
