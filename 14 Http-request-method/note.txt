@@ -27,3 +27,5 @@ function testRequest(Request $req){  //here we are getting data from request
     }
 - make path of controller in route
 route::method_name("users",['UserController'::class,'testRequest']); //this is the format of handling any type of request method method_name is dynamic
+- to get data in controller use 
+//return $req->input();

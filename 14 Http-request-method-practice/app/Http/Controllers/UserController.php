@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
     function testRequest(Request $req){
-        return "hello from controller";
+        
+        return $req->input();
     }
 }
