@@ -8,7 +8,7 @@ class AddMember extends Controller
 {
     
     function add(Request $req){
-        $data = $req->input();
+        $data = $req->input('user');
         $req->session()->flash('user',$data);
         return redirect('add');
 

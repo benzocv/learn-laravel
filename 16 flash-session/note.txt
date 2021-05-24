@@ -7,6 +7,10 @@ Process
 - create controller 
 //php artisan make:controller AddMember
 - save input data into $data variable 
-$data = $req->input();
-$req->session()->flash('user',$data);
-return redirect('add');
+//$data = $req->input('user');
+//$req->session()->flash('user',$data);
+//return redirect('add');
+-show data on add view
+@if (session('user'))
+    <h3 style="color:green">{{session('user')}} user has been added</h3>
+@endif
