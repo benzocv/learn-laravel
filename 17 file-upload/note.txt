@@ -18,3 +18,6 @@ Flow of how we gonna use file upload
 
 //controller creation
 php artisan make:controller UploadFile
+
+//controller route setup
+Route::post("upload",[UploadFile::class,'index']); 

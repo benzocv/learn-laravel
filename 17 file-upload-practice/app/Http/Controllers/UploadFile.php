@@ -6,8 +6,9 @@ use Illuminate\Http\Request;
 
 class UploadFile extends Controller
 {
-    function index(){
-        return 'hwllo control';
+    function index(Request $req){
+
+        return $req->file('file')->store('docs');
     }
 }
 
