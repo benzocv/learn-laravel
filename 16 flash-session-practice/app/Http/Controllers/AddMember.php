@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class AddMember extends Controller
 {
     
-    function addMember(Request $req){
+    function add(Request $req){
         return $req->input();
 
     }

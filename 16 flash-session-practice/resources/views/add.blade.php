@@ -1,5 +1,5 @@
 <h1>Add Member</h1>
-<form action="" method="POST">
+<form action="addmember" method="POST">
     @csrf
     <input type="text" name="user" placeholder="Enter user name"> <br><br>
     <input type="password" name="password" placeholder="Enter your password"> <br><br>
