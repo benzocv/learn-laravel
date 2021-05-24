@@ -13,3 +13,8 @@ Flow of how we gonna use file upload
     <input type="file" name="file"> <br><br>
     <button type="submit">Upload File</button>
 </form>
+
+
+
+//controller creation
+php artisan make:controller UploadFile
