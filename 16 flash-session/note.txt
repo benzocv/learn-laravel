@@ -4,3 +4,5 @@ What is flash session.
 Process
 
 - create view wit form 
+- create controller 
+//php artisan make:controller AddMember
