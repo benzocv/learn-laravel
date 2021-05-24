@@ -1,13 +1,4 @@
-Flow of how we gonna use file upload 
-
-1) Create a view 
-2) Make a html form
-3) Make controller
-4) code for upload file 
-
-
-//view code 
-
+<h1>Upload File</h1>
 <form action="" method="POST" enctype="multipart/form-data">
     @csrf
     <input type="file" name="file"> <br><br>
