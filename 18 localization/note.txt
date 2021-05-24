@@ -1,0 +1,2 @@
+What is localization?
+- localization means you website should be automatically converted to local language 
