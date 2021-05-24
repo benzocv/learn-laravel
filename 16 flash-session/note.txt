@@ -6,3 +6,7 @@ Process
 - create view wit form 
 - create controller 
 //php artisan make:controller AddMember
+- save input data into $data variable 
+$data = $req->input();
+$req->session()->flash('user',$data);
+return redirect('add');
