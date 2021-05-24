@@ -1,0 +1,6 @@
+What is flash session. 
+- data deleted after one refresh 
+
+Process
+
+- create view wit form 
