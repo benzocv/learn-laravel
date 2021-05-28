@@ -19,6 +19,7 @@ Route::get('/', function () {
 
 
 
-Route::get('/profile', function () {
+Route::get('/profile/{lang}', function ($lang) {
+    App::setlocale($lang);
     return view('profile');
 });

@@ -50,3 +50,10 @@ return[
 - if you wants to define default language 
 config/app.php
 change locale' => 'en'
+
+- second way is to pass data from the url 
+
+Route::get('/profile{lang}', function ($lang) {
+    App::setlocale($lang);
+    return view('profile');
+});
