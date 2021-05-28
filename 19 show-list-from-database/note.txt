@@ -1,1 +1,4 @@
 - create view list
+- create controller 
+    - return view from controller
+- create route for controller
