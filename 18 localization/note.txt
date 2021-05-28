@@ -20,5 +20,28 @@ return[
 ?>
 
 //hi
+<?php
+
+return[
+    'welcome'=>'नमस्कार यह प्रोफाइल पेज है',
+    'about'=>'के बारे में',
+    'contact'=>'से संपर्क करें',
+    'list'=>'सूची',
+]
+
+?>
 
 //gu
+<?php
+
+return[
+    'welcome'=>'હેલો આ પ્રોફાઇલ પૃષ્ઠ છે',
+    'about'=>'વિશે',
+    'contact'=>'સંપર્ક',
+    'list'=>'યાદી',
+]
+
+?>
+
+- change the view how to showcase this
+{{__('dictionary.welcome')}}
