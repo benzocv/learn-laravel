@@ -45,3 +45,8 @@ return[
 
 - change the view how to showcase this
 {{__('dictionary.welcome')}}
+
+
+- if you wants to define default language 
+config/app.php
+change locale' => 'en'

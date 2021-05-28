@@ -80,6 +80,7 @@ return [
     |
     */
 
+    // 'locale' => 'hi',
     'locale' => 'en',
 
     /*
