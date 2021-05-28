@@ -4,3 +4,5 @@
 - create controller 
 - just use this function in controller 
 //$data = Member::paginate(2);
+
+- how to give pages link
