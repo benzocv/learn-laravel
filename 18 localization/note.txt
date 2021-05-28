@@ -5,3 +5,20 @@ What is localization?
 - go to lang folder 
 - create new file with any name you want 
 - create new folders with same name dictionary file 
+- creay key value array in earch language file 
+
+//en
+<?php
+
+return[
+    'welcome'=>'Hello this is profile page',
+    'about'=>'about',
+    'contact'=>'contact',
+    'list'=>'list',
+]
+
+?>
+
+//hi
+
+//gu
