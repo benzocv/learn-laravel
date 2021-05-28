@@ -2,3 +2,5 @@
 
 - create view
 - create controller 
+- just use this function in controller 
+//$data = Member::paginate(2);
