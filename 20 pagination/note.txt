@@ -1,0 +1,4 @@
+- pagination is used to showcase data with proper format 
+
+- create view
+- create controller 
