@@ -2,3 +2,5 @@
 - create controller 
     - return view from controller
 - create route for controller
+- create model
+php artisan make:model Member
