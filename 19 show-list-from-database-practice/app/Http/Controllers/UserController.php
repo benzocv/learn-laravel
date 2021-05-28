@@ -3,10 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Member;
 
 class UserController extends Controller
 {
  function show(){
-     return view('list');
+     return Member::all();
+    //  return view('list');
  }
 }

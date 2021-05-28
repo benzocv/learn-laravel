@@ -4,3 +4,10 @@
 - create route for controller
 - create model
 php artisan make:model Member
+- change configuration in .eng file 
+
+- import model in controller
+//use App\Models\Member;
+
+- fetch all data 
+return Member::all();
