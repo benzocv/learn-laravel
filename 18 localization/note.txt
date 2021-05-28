@@ -3,3 +3,5 @@ What is localization?
 
 
 - go to lang folder 
+- create new file with any name you want 
+- create new folders with same name dictionary file 
