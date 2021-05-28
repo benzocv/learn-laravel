@@ -8,7 +8,7 @@ use App\Models\Member;
 class UserController extends Controller
 {
  function show(){
-     return Member::all();
-    //  return view('list');
+     $data = Member::all();
+     return view('list',['members'=>$data]);
  }
 }
