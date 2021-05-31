@@ -1,0 +1,8 @@
+steps
+
+1) Make html view
+2) Make Controller and Model
+3) Make Route
+4) Save data in table
+
+- update .env file
