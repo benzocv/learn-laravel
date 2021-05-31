@@ -6,3 +6,7 @@ steps
 4) Save data in table
 
 - update .env file
+- create form and setup Route
+- create Controller
+//php artisan make:controller MemberController
+- create route for controller
