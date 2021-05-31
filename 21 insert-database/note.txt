@@ -10,3 +10,15 @@ steps
 - create Controller
 //php artisan make:controller MemberController
 - create route for controller
+- create post route
+//Route::post('add-member',[MemberController::class,'addData']);
+- Create Model
+//php artisan make:model Member
+- import model inside controller
+$member->name = $req->name;
+$member->email = $req->email;
+$member->address = $req->address;
+$member->save();
+
+// to resolve error
+public $timestamps = false;
