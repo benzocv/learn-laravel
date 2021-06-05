@@ -34,8 +34,9 @@
 //return Member::find($id);
 - create view for edit 
 //<h1>Member List</h1>
-//<form action="" method="POST">
+//<form action="/edit" method="POST">
 //@csrf
+//<input type="hidden" name="id" value="{{$data['id']}}">
 //<input type="text" name="name" placeholder="Enter You Name"><br><br>
 //<input type="email" name="email" placeholder="Enter You Email"><br><br>
 //<input type="text" name="address" placeholder="Enter You Address"><br><br>
@@ -51,3 +52,14 @@ value="{{$data['name']}}"
 - create new route for action 
 //Route::post('edit/',[MemberController::class,'edit']);
 - create edit data function in controller
+
+    function edit(Request $req){
+        $data = Member::find($req->id);
+        $data->name = $req->name;
+        $data->email = $req->email;
+        $data->address = $req->address;
+        $data->save();
+        return redirect('list');
+
+    }
+- update model for timestamp false ( or you can add updated at column in database )

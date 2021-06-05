@@ -24,8 +24,14 @@ class MemberController extends Controller
         return view('edit',['data'=>$data]);
     }
 
-    function edit(){
-        
+    function edit(Request $req){
+        $data = Member::find($req->id);
+        $data->name = $req->name;
+        $data->email = $req->email;
+        $data->address = $req->address;
+        $data->save();
+        return redirect('list');
+
     }
 
 
