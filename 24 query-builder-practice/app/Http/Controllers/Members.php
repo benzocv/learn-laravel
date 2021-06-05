@@ -9,6 +9,7 @@ class Members extends Controller
 {
     //
     function dbOperation(){
-        return DB::table('members')->get();
+        $data = DB::table('members')->get();
+        return view('list',['data'=>$data]); 
     }
 }

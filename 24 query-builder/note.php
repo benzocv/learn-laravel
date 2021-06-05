@@ -10,3 +10,4 @@
 //function dbOperation(){
 //    return DB::table('members')->get();
 //}
+- now let's return it with view
