@@ -28,3 +28,12 @@
 
 - how to fetch total number of data
 //return DB::table('members')->count();
+
+-how to insert data into database
+//return DB::table('members')
+//->insert([
+//    'name'=>'anzar',
+//    'email'=>'benzo',
+//    'address'=>'ahmedabad',
+//    
+//]);

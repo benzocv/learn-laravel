@@ -19,7 +19,16 @@ class Members extends Controller
         // return (array)DB::table('members')->find(4);
 
         //count function 
-        return DB::table('members')->count();
+        // return DB::table('members')->count();
+
+        //insert function 
+        return DB::table('members')
+        ->insert([
+            'name'=>'anzar',
+            'email'=>'benzo',
+            'address'=>'ahmedabad',
+            
+        ]);
 
 
 
