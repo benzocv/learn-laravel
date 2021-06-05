@@ -6,3 +6,13 @@
 - return view from controller
 - create model for drive data 
 //php artisan make:model Member
+- import model inside the controller
+//use App\Models\Member;
+- to derive all data
+//$data = Member::all();
+//return view('list',['member'=>$data]);
+- user this foreach in view
+//@foreach ($members as $item)
+//@endforeach
+- Create link for delete
+//<td><a href="delete/{{$item['id']}}">Delete</a></td>
