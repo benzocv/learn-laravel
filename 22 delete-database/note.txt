@@ -1,0 +1,5 @@
+- Make controller 
+- Create function in controller to fetch data
+- create route for controller
+//Rote::get('list',[MemberController::class,'list']);
+- create view 
