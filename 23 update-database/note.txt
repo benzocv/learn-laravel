@@ -26,3 +26,7 @@
 //    $data->delete();
 //    return redirect('list');
 //}
+
+- add edit option in the view similar to delete
+- create route for edit 
+//Route::get('edit/{id}',[MemberController::class,'edit']);
