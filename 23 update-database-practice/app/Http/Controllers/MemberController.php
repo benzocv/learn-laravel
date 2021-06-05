@@ -17,8 +17,9 @@ class MemberController extends Controller
         $data->delete();
         return redirect('list');
     }
+    
 
     function ShowData($id){
-        echo $id;
+        return Member::find($id);
     }
 }

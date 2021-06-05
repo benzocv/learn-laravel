@@ -30,3 +30,6 @@
 - add edit option in the view similar to delete
 - create route for edit show data
 //Route::get('edit/{id}',[MemberController::class,'ShowData']);
+- to show particular data 
+//return Member::find($id);
+- create view for edit 
