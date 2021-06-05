@@ -17,4 +17,8 @@ class MemberController extends Controller
         $data->delete();
         return redirect('list');
     }
+
+    function edit($id){
+        echo $id;
+    }
 }
