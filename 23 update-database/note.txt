@@ -63,3 +63,4 @@ value="{{$data['name']}}"
 
     }
 - update model for timestamp false ( or you can add updated at column in database )
+//public $timestamps = false;
