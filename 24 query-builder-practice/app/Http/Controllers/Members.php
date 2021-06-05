@@ -31,15 +31,24 @@ class Members extends Controller
         // ]);
 
 
+        // return DB::table('members')
+        // ->where('id',6)
+        // ->update([
+        //     'name'=>'anzar',
+        //     'email'=>'benzod',
+        //     'address'=>'ahmedabad',
+            
+        // ]);
+
+
+
         return DB::table('members')
         ->where('id',6)
-        ->update([
-            'name'=>'anzar',
-            'email'=>'benzod',
-            'address'=>'ahmedabad',
-            
-        ]);
+        ->delete();
 
+
+        
+       
 
 
         // return view('list',['data'=>$data]); 

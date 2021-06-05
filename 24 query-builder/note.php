@@ -48,3 +48,10 @@
 //    'address'=>'ahmedabad',
 //    
 //]);
+
+
+- how to delete from database
+
+//return DB::table('members')
+//->where('id',6)
+//->delete();
