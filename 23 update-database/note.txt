@@ -28,5 +28,5 @@
 //}
 
 - add edit option in the view similar to delete
-- create route for edit 
-//Route::get('edit/{id}',[MemberController::class,'edit']);
+- create route for edit show data
+//Route::get('edit/{id}',[MemberController::class,'ShowData']);

@@ -18,7 +18,7 @@ class MemberController extends Controller
         return redirect('list');
     }
 
-    function edit($id){
+    function ShowData($id){
         echo $id;
     }
 }

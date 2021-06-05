@@ -20,4 +20,4 @@ Route::get('/', function () {
 
 Route::get('list',[MemberController::class,'list']);
 Route::get('delete/{id}',[MemberController::class,'delete']);
-Route::get('edit/{id}',[MemberController::class,'edit']);
+Route::get('edit/{id}',[MemberController::class,'ShowData']);
