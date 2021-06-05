@@ -19,8 +19,14 @@ class MemberController extends Controller
     }
     
 
-    function ShowData($id){
+    function showData($id){
         $data =  Member::find($id);
         return view('edit',['data'=>$data]);
     }
+
+    function edit(){
+        
+    }
+
+
 }

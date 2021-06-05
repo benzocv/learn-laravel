@@ -1,6 +1,6 @@
 <h1>Member List</h1>
 
-<form action="" method="POST">
+<form action="edit" method="POST">
 
 @csrf
 <input type="text" name="name" placeholder="Enter You Name" value="{{$data['name']}}"><br><br>

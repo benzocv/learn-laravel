@@ -48,3 +48,6 @@
 //}
 -show value from the data
 value="{{$data['name']}}"
+- create new route for action 
+//Route::post('edit/',[MemberController::class,'edit']);
+- create edit data function in controller
