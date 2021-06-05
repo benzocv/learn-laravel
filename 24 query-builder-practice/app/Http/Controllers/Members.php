@@ -19,6 +19,8 @@ class Members extends Controller
         // return (array)DB::table('members')->find(4);
 
         //count function 
+        return DB::table('members')->count();
+
 
 
         // return view('list',['data'=>$data]); 

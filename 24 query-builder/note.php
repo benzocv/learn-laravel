@@ -24,3 +24,7 @@
 
 - how to use find method 
 - convert this to array 
+//return (array)DB::table('members')->find(4);
+
+- how to fetch total number of data
+//return DB::table('members')->count();
