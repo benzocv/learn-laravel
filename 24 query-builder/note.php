@@ -37,3 +37,14 @@
 //    'address'=>'ahmedabad',
 //    
 //]);
+
+
+- how to use update function 
+//return DB::table('members')
+//->where('id',6)
+//->update([
+//    'name'=>'anzar',
+//    'email'=>'benzod',
+//    'address'=>'ahmedabad',
+//    
+//]);

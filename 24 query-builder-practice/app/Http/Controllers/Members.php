@@ -22,10 +22,20 @@ class Members extends Controller
         // return DB::table('members')->count();
 
         //insert function 
+        // return DB::table('members')
+        // ->insert([
+        //     'name'=>'anzar',
+        //     'email'=>'benzo',
+        //     'address'=>'ahmedabad',
+            
+        // ]);
+
+
         return DB::table('members')
-        ->insert([
+        ->where('id',6)
+        ->update([
             'name'=>'anzar',
-            'email'=>'benzo',
+            'email'=>'benzod',
             'address'=>'ahmedabad',
             
         ]);
