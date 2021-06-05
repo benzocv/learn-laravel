@@ -13,7 +13,7 @@ class MemberController extends Controller
     }
 
     function delete($id){
-        $data = Member:find($id);
+        $data = Member::find($id);
         $data->delete();
         return redirect('list');
     }
