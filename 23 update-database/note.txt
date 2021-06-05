@@ -46,3 +46,5 @@
 // $data =  Member::find($id);
 // return view('edit',['data'=>$data]);
 //}
+-show value from the data
+value="{{$data['name']}}"
