@@ -16,3 +16,13 @@
 //@endforeach
 - Create link for delete
 //<td><a href="delete/{{$item['id']}}">Delete</a></td>
+- handle delete route in the controller
+//Route::get('delete',[MemberController::class,'delete']);
+- pass the id from the route
+//Route::get('delete/{id}',[MemberController::class,'delete']);
+- function to delete data from route
+//function delete($id){
+//    $data = Member:find($id);
+//    $data->delete();
+//    return redirect('list');
+//}
