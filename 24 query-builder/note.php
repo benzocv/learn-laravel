@@ -11,3 +11,16 @@
 //    return DB::table('members')->get();
 //}
 - now let's return it with view
+//function dbOperation(){
+//        $data = DB::table('members')->get();
+//        return view('list',['data'=>$data]); 
+//    }
+
+- how to use whare condition
+  (derive data for only 4th row)
+//$data = DB::table('members')
+//->where('id',4)
+//->get();
+
+- how to use find method 
+- convert this to array 
