@@ -3,3 +3,6 @@
 - create route for controller
 //Rote::get('list',[MemberController::class,'list']);
 - create view 
+- return view from controller
+- create model for drive data 
+//php artisan make:model Member
