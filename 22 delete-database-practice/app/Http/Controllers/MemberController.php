@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class MemberController extends Controller
 {
     function list(){
-        echo 'from controller';
+        return view('list');
     }
 }
