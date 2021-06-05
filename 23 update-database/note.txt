@@ -1,0 +1,28 @@
+- Make controller 
+- Create function in controller to fetch data
+- create route for controller
+//Rote::get('list',[MemberController::class,'list']);
+- create view 
+- return view from controller
+- create model for drive data 
+//php artisan make:model Member
+- import model inside the controller
+//use App\Models\Member;
+- to derive all data
+//$data = Member::all();
+//return view('list',['member'=>$data]);
+- user this foreach in view
+//@foreach ($members as $item)
+//@endforeach
+- Create link for delete
+//<td><a href="delete/{{$item['id']}}">Delete</a></td>
+- handle delete route in the controller
+//Route::get('delete',[MemberController::class,'delete']);
+- pass the id from the route
+//Route::get('delete/{id}',[MemberController::class,'delete']);
+- function to delete data from route
+//function delete($id){
+//    $data = Member:find($id);
+//    $data->delete();
+//    return redirect('list');
+//}
