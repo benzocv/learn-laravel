@@ -22,7 +22,7 @@ class Members extends Controller
         // ->sum('id');
 
 
-        //to get the sum
+        //to get the count
         // return DB::table('members')
         // ->count();
 

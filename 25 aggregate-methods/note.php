@@ -21,6 +21,17 @@
 // ->sum('id');
 
 
--to get the sum
+-to get the count
 //return DB::table('members')
 //->count();
+
+
+
+-to use max 
+//return DB::table('members')
+//->max('id');
+
+
+-to use min 
+//return DB::table('members')
+//->min('id');
