@@ -12,11 +12,28 @@ class Members extends Controller
        
 
 
+        //to get the avg 
+        // return DB::table('members')
+        // ->avg('id');
 
-        return DB::table('members')
-        ->avg('id');
         
+        //to get the sum
+        // return DB::table('members')
+        // ->sum('id');
 
+
+        //to get the sum
+        // return DB::table('members')
+        // ->count();
+
+        //to use max 
+        //return DB::table('members')
+        //->max('id');
+
+
+        //to use min 
+        return DB::table('members')
+        ->min('id');
 
         
        

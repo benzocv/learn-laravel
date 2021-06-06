@@ -14,4 +14,13 @@
 - to average the column 
 //return DB::table('members')
 //->avg('id');
-//
+/
+
+-to get the sum
+// return DB::table('members')
+// ->sum('id');
+
+
+-to get the sum
+//return DB::table('members')
+//->count();
