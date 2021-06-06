@@ -10,48 +10,8 @@
 //function dbOperation(){
 //    return DB::table('members')->get();
 //}
-- now let's return it with view
-//function dbOperation(){
-//        $data = DB::table('members')->get();
-//        return view('list',['data'=>$data]); 
-//    }
 
-- how to use whare condition
-  (derive data for only 4th row)
-//$data = DB::table('members')
-//->where('id',4)
-//->get();
-
-- how to use find method 
-- convert this to array 
-//return (array)DB::table('members')->find(4);
-
-- how to fetch total number of data
-//return DB::table('members')->count();
-
--how to insert data into database
+- to average the column 
 //return DB::table('members')
-//->insert([
-//    'name'=>'anzar',
-//    'email'=>'benzo',
-//    'address'=>'ahmedabad',
-//    
-//]);
-
-
-- how to use update function 
-//return DB::table('members')
-//->where('id',6)
-//->update([
-//    'name'=>'anzar',
-//    'email'=>'benzod',
-//    'address'=>'ahmedabad',
-//    
-//]);
-
-
-- how to delete from database
-
-//return DB::table('members')
-//->where('id',6)
-//->delete();
+//->avg('id');
+//
