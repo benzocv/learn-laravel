@@ -8,3 +8,13 @@
 
 - run cmd 
 //php artisan migrate
+
+
+- Advance commands 
+
+php artisan make:migrate create_test5_table
+php artisan migrate
+php artisan migrate:reset
+php artisan migrate:rollback --step3
+php artisan migrate --path=/database/migrate/
+php artisan migrate:refresh
