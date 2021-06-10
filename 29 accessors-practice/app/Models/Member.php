@@ -11,4 +11,9 @@ class Member extends Model
     public function getNameAttribute($value){
         return ucfirst($value);
     }
+
+
+    public function getAddressAttribute($value){
+        return $value.', India';
+    }
 }

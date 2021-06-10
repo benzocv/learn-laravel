@@ -13,3 +13,7 @@ What is accessor?
 //public function getNameAttribute($value){
 //    return ucfirst($value);
 //}
+-another accessor added
+//public function getAddressAttribute($value){
+//    return $value.', India';
+//}
