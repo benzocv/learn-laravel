@@ -1,0 +1,8 @@
+What is route model binding?
+- we can directly inject our model in the route is called route model binding. 
+
+- How 
+
+- Create controller 
+//php artisan make:controller DeviceController 
+- Create a function in it 
