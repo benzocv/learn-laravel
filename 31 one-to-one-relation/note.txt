@@ -7,4 +7,12 @@ What is one to one relation?
 //php artisan make:controller MemberController
 
 - create model 
-//php artisan make:model employee
+//php artisan make:model Member
+//php artisan make:model Company
+
+- create a relationship
+- go to member model
+
+    public function getCompany(){
+        return $this->hasOne('App\Models\Company');
+    }
