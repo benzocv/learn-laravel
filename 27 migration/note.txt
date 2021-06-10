@@ -2,4 +2,6 @@
 
 
 - How to create table
-php artisan make:migration create_test_table
+//php artisan make:migration create_test_table
+
+- add new values in the up function 
