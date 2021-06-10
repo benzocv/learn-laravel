@@ -9,3 +9,7 @@ What is accessor?
 - create model 
 //php artisan make:model Member
 - import model inside the controller
+- create accessor in model
+//public function getNameAttribute($value){
+//    return ucfirst($value);
+//}
