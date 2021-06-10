@@ -1,2 +1,5 @@
 - What is Join?
 When fetching data from two or more table is called join. 
+
+- create a controller 
+//php artisan make:controller EmployeeController
