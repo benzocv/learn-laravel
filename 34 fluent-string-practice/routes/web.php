@@ -15,9 +15,21 @@ use Illuminate\Support\Str;
 */
 
 $data = "hi, let's learn laravel";
-$data = Str::ucfirst($data);
-$data = Str::replaceFirst("Hi","Hello",$data);
-$data = Str::camel($data);
+
+//old method
+
+// $data = Str::ucfirst($data);
+// $data = Str::replaceFirst("Hi","Hello",$data);
+// $data = Str::camel($data);
+
+
+//new method
+
+$data=Str::of($data)
+->ucfirst($data)
+->replaceFirst("Hi","Hello",$data)
+->camel($data);
+
 
 echo $data;
 
