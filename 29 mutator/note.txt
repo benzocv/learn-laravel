@@ -1,2 +1,21 @@
 What is mutator?
 - mutator is used for change the data before inserting it into database.
+
+- create controller
+- create model 
+- inside controller
+//function index(){
+//    $member = new Member;
+//    $member->name = "john";
+//    $member->email = "doe@yahoo.com";
+//    $member->address = "ahmedabad";
+//    $member->save();
+//}
+
+- inside model
+//public function setNameAttribute($value){
+//    $this->attributes['name'] = 'Mr '.$value;
+//}
+//public function setAddressAttribute($value){
+//    $this->attributes['address'] = $value.', India';
+//}

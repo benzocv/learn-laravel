@@ -8,12 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 class Member extends Model
 {
     use HasFactory;
-    public function getNameAttribute($value){
-        return ucfirst($value);
+    public $timestamps = false;
+    public function setNameAttribute($value){
+        $this->attributes['name'] = 'Mr '.$value;
     }
 
 
-    public function getAddressAttribute($value){
-        return $value.', India';
+    public function setAddressAttribute($value){
+        $this->attributes['address'] = $value.', India';
     }
 }
