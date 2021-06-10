@@ -7,3 +7,19 @@ What is stub?
 //php artisan stub:publish
 
 - to modify the controller go to controller.plain.stub
+
+
+- edit stub file
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+class {{ class }} extends Controller
+{
+    function index(){
+        return "Hello from index";
+    }
+}
