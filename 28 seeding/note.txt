@@ -5,3 +5,17 @@ What is seeding?
 
 - Create a seeder file 
 //php artisan make:seeder MembersSeeder
+- import this two files into seeder file
+//use Illuminate\Support\Facades\DB;
+//use Illuminate\Support\Str;
+- create a seeding 
+// DB::table('members')->insert([
+//    'name'=>Str::random(10),
+//    'email'=>Str::random(10).'@gmail.com',
+//    'address'=>Str::random(10)
+//]);
+
+- run this command for seed the data in database 
+//php artisan db:seed --class=MembersSeeder
+
+
