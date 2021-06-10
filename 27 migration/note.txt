@@ -1,0 +1,5 @@
+- with the help of migration you can create a table dynamically with help of laravel script 
+
+
+- How to create table
+php artisan make:migration create_test_table
