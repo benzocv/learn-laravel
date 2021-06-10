@@ -1,24 +1,24 @@
 What is one to one relation?
-- only single field of data is matched with the other table is called one to one relation.
+- multiple connection with the other table
 
 - How 
 
 - create controller 
 //php artisan make:controller MemberController
 
+
 - create model 
 //php artisan make:model Member
-//php artisan make:model Company
+//php artisan make:model Device
 
 - create a relationship
 - go to member model
 
-public function getCompany(){
-    return $this->hasOne('App\Models\Company');
-    
-}
+//public function getDevice(){
+//    return $this->hasMany('App\Models\Device');
+//}
 
 - in controller
 //function index(){
-//  return Member::find(1)->getCompany;
+//  return Member::find(1)->getDevice;
 //}
