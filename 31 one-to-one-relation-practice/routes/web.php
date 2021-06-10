@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('member',[MemberController::class,'index']);
+Route::get('data',[MemberController::class,'index']);
