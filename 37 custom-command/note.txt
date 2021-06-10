@@ -9,3 +9,10 @@
 //protected $commands = [
 //    Commands\showDB::class, 
 //];
+
+- update handle() function to get output from the command
+
+// public function handle()
+//    {
+//        $this->info('Current Database is '.DB::connection()->getDatabaseName());
+//    }

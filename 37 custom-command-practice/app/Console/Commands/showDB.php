@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\DB;
 
 class showDB extends Command
 {
@@ -37,6 +38,6 @@ class showDB extends Command
      */
     public function handle()
     {
-        return 0;
+        $this->info('Current Database is '.DB::connection()->getDatabaseName());
     }
 }
