@@ -23,3 +23,6 @@ class {{ class }} extends Controller
         return "Hello from index";
     }
 }
+
+- model modified 
+//public $timestamps = false;
