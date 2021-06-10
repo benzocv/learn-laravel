@@ -10,7 +10,7 @@ class Member extends Model
     use HasFactory;
     public $timestamps = false;
     public function setNameAttribute($value){
-        $this->attributes['name'] = 'Mr '.$value;
+        $this->attributes['name'] = 'Mr '.$value;    
     }
 
 
