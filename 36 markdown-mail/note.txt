@@ -9,3 +9,5 @@
 //use App\Mail\SampleMail;
 
 - create new route 
+
+- use laravel official mail instruction for more info
