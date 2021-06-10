@@ -1,0 +1,2 @@
+What is mutator?
+- mutator is used for change the data before inserting it into database.
