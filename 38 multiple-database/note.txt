@@ -1,0 +1,5 @@
+- sometime we need multiple database 
+
+- how
+
+- go to .env file and create credentials with other name 
