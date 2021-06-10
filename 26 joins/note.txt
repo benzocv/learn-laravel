@@ -8,3 +8,9 @@ When fetching data from two or more table is called join.
 //use Illuminate\Support\Facades\DB;
 - check by giving return of table 
 //return DB::table('employee')->get();
+
+- you need to use join() function 
+- it has three parameters 
+
+/////////////////////////////////////
+not cleared this lesson 
