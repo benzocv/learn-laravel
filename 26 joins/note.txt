@@ -3,3 +3,8 @@ When fetching data from two or more table is called join.
 
 - create a controller 
 //php artisan make:controller EmployeeController
+- give a route to controller
+- add database in the controller
+//use Illuminate\Support\Facades\DB;
+- check by giving return of table 
+//return DB::table('employee')->get();

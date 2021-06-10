@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class EmployeeController extends Controller
 {
     function show(){
-        echo "this is from controller";
+        return DB::table('employee')->get();
     }
 }
