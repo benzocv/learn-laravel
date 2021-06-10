@@ -1,0 +1,9 @@
+What is stub?
+- stub defines the structure of the things what to add in controller what to add in model and all that
+
+
+
+- How?
+//php artisan stub:publish
+
+- to modify the controller go to controller.plain.stub
