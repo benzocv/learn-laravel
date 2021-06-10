@@ -1,0 +1,2 @@
+- What is Join?
+When fetching data from two or more table is called join. 
