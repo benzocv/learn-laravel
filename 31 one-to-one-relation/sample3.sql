@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 10, 2021 at 09:16 AM
+-- Generation Time: Jun 10, 2021 at 09:29 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.3
 
@@ -30,14 +30,14 @@ SET time_zone = "+00:00";
 CREATE TABLE `companies` (
   `id` int(50) NOT NULL,
   `name` varchar(250) DEFAULT NULL,
-  `employee_id` int(50) DEFAULT NULL
+  `member_id` int(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `companies`
 --
 
-INSERT INTO `companies` (`id`, `name`, `employee_id`) VALUES
+INSERT INTO `companies` (`id`, `name`, `member_id`) VALUES
 (1, 'Apple', 1),
 (2, 'Google', 2);
 

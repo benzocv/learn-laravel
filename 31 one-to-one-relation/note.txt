@@ -15,4 +15,10 @@ What is one to one relation?
 
 public function getCompany(){
     return $this->hasOne('App\Models\Company');
+    
 }
+
+- in controller
+//function index(){
+//  return Member::find(1)->getCompany;
+//}
