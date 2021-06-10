@@ -1,0 +1,6 @@
+What is accessor?
+- They modify the data of the database (capitalize first letter)
+
+- How
+
+- Create controller 
