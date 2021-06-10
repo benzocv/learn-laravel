@@ -1,0 +1,7 @@
+What is seeding?
+- Seeding in laravel is used to push some dummy data in the database with the help of command line
+
+- How
+
+- Create a seeder file 
+//php artisan make:seeder MembersSeeder
