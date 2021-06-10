@@ -5,3 +5,6 @@ What is one to one relation?
 
 - create controller 
 //php artisan make:controller MemberController
+
+- create model 
+//php artisan make:model employee
