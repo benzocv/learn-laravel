@@ -12,3 +12,12 @@ What is route model binding?
 //Route::get('device/{key}',[DeviceController::class,'index']);
 - create model 
 //php artisan make:model Device
+- import the model inside the controller
+- get the parameter in the function
+//function index(Device $key){
+//    echo $key;
+//}
+
+- to use perticular name of the field change the route
+//Route::get('device/{key:name}',[DeviceController::class,'index']);
+
