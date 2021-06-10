@@ -12,9 +12,25 @@
 
 - Advance commands 
 
+
 php artisan make:migrate create_test5_table
 php artisan migrate
 php artisan migrate:reset
 php artisan migrate:rollback --step3
-php artisan migrate --path=/database/migrate/
+php artisan migrate --path=/database/migrate/2021_06_10_051755_create_test_table.php
 php artisan migrate:refresh
+
+
+
+//php artisan migrate:reset
+- this commands delete all the database 
+
+
+//php artisan migrate:rollback --step3
+-You can define how many times you want to go back 
+
+//php artisan migrate:refresh
+- if you updated table structure anything like that it will bring that change to database
+
+//php artisan migrate --path=/database/migrate/2021_06_10_051755_create_test_table.php
+- this command is used to migrate a single data
