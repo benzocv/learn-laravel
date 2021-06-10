@@ -1,1 +1,11 @@
 - use to create mail template
+
+- how
+
+- use artisan command 
+//php artisan make:mail SampleMail --markdown=emails.SampleMail
+
+- import mail into route 
+//use App\Mail\SampleMail;
+
+- create new route 
