@@ -1,1 +1,11 @@
 - You can create a custom command for the laravel
+
+- use php artisan to get all command list
+- to create new command 
+//php artisan make:command showDB
+- change the signature 
+- change the description
+- Register command in kernal
+//protected $commands = [
+//    Commands\showDB::class, 
+//];
