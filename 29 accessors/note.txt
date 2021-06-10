@@ -4,3 +4,8 @@ What is accessor?
 - How
 
 - Create controller 
+//php artisan make:controller MemberController
+
+- create model 
+//php artisan make:model Member
+- import model inside the controller
