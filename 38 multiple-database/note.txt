@@ -45,3 +45,8 @@
 
 
 - restart sql server
+
+- Create controller 
+//php artisan make:controller DeviceController
+
+- import db in controller
