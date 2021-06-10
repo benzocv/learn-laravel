@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('device',[DeviceController::class,'index']);
+Route::get('device/{key}',[DeviceController::class,'index']);

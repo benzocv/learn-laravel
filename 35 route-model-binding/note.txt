@@ -6,3 +6,9 @@ What is route model binding?
 - Create controller 
 //php artisan make:controller DeviceController 
 - Create a function in it 
+- add route 
+- Now we need to bind the model with controller thats why we require id from the link 
+- we are taking parameter from url as a key 
+//Route::get('device/{key}',[DeviceController::class,'index']);
+- create model 
+//php artisan make:model Device
