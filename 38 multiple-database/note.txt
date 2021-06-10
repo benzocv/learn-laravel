@@ -53,3 +53,10 @@
 //return DB::table('devices')->get();
 - to connect to extra connection database 
 //return DB::connection('mysql2')->table('employee')->get();
+
+
+- how to use with model 
+- create model 
+- import model
+- define connection in the model 
+//public $connection = "mysql2"
