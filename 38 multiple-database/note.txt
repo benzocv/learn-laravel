@@ -50,3 +50,6 @@
 //php artisan make:controller DeviceController
 
 - import db in controller
+//return DB::table('devices')->get();
+- to connect to extra connection database 
+//return DB::connection('mysql2')->table('employee')->get();
