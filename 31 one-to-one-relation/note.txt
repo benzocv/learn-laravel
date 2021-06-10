@@ -13,6 +13,6 @@ What is one to one relation?
 - create a relationship
 - go to member model
 
-    public function getCompany(){
-        return $this->hasOne('App\Models\Company');
-    }
+public function getCompany(){
+    return $this->hasOne('App\Models\Company');
+}
