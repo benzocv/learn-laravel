@@ -1,4 +1,6 @@
 - create controller
 //php artisan make:controller DeviceController
-- set route 
+- set route in api.php
 - create model 
+
+- import model into controller
