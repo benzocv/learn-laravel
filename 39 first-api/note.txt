@@ -1,0 +1,10 @@
+- create controller 
+//php artisan make:controller dummyAPI 
+
+- when you are writing an api you need to write your path in api.php not in web.php
+- add controller in the route api.php
+- give route to the controller
+//Route::get('data',[dummyAPI::class,'getData']);
+
+- use access link with api keyword
+//http://127.0.0.1:8000/api/data/
