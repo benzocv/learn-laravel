@@ -1,0 +1,2 @@
+Why we use put method?
+- to update the data 
