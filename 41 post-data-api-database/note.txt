@@ -1,0 +1,9 @@
+Why we use post mehod?
+- When we wants to send data to server we use POST method 
+
+- How 
+
+- setup postman use post method and data should be raw 
+- create controller 
+- create function in controller
+- create path or route for the controller
