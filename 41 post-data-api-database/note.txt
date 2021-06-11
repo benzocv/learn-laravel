@@ -7,3 +7,7 @@ Why we use post mehod?
 - create controller 
 - create function in controller
 - create path or route for the controller
+- create model 
+- give it timestamp false
+- import model in the controller
+- get the data
