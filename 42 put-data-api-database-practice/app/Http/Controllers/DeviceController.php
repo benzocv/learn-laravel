@@ -8,7 +8,8 @@ use App\Models\Device;
 class DeviceController extends Controller
 {
     function update(Request $req){
-        $device = Device::find($req->id);
+        // $device = Device::find($req->id);
+        $device = new Device;
         $device->name = $req->name;
         $device->member_id = $req->member_id;
         $result = $device->save();
