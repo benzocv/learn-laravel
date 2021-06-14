@@ -7,7 +7,18 @@ use App\Models\Device;
 
 class DeviceController extends Controller
 {
-    function update(){
-        return ["result"=>"data is updated"];
+    function update(Request $req){
+        $device = Device::find($req->id);
+        $device->name = $req->name;
+        $device->member_id = $req->member_id;
+        $result = $device->save();
+        if($result){
+            
+            return ["Result"=>"Data has been updated"];
+
+        }else{
+            return ["Result"=>"Data update failed"];
+
+        }
     }
 }
