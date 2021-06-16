@@ -1,0 +1,6 @@
+- create controller 
+- create model 
+- add timestamp none in model 
+- add model into controller
+- add controller in api Route
+- add delete route in api 
