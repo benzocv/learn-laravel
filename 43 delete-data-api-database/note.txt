@@ -1,3 +1,7 @@
+- why we use delete mothod
+To delete the data from database 
+
+
 - create controller 
 - create model 
 - add timestamp none in model 
