@@ -1,0 +1,9 @@
+Why use get method to search?
+- Because it's very easy to fetch data via get method 
+
+
+- what will be our search path
+http://127.0.0.1:8000/api/search/{string}
+
+
+- update route with search 
