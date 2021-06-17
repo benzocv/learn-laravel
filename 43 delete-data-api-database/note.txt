@@ -2,9 +2,17 @@
 To delete the data from database 
 
 
+
 - create controller 
 - create model 
 - add timestamp none in model 
 - add model into controller
 - add controller in api Route
 - add delete route in api 
+
+- to delete the data we don't need to transfer data from body part we can just use direct link 
+//http://127.0.0.1:8000/api/delete/22
+
+- to get data from id rout should be look like this
+Route::delete('delete/{id}',[DeviceController::class,'delete']);
+-get this data into controller

@@ -7,8 +7,8 @@ use App\Models\Device;
 
 class DeviceController extends Controller
 {
-    function delete(Request $req){
-        return ["result"=>"testing"];
+    function delete($id){
+        return ["result"=>"testing".$id];
 
     }
 }
