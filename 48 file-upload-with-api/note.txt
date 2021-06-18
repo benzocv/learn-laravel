@@ -1,2 +1,6 @@
 - Create controller
 //php artisan make:controller FileController
+- give route to the controller
+- create function in controller
+//Route::post('upload',[FileController::class,'upload']);
+- change the post request in postman to file type 
