@@ -7,7 +7,7 @@ use App\Models\Device;
 
 class DeviceController extends Controller
 {
-    function search(){
-        return ['result'=>'result'];
+    function search($name){
+        return ['result'=>'result'.$name];
     }
 }
