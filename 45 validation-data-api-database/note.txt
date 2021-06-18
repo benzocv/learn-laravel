@@ -24,3 +24,9 @@
 //        }    
 //    }
 //}
+
+- for min max validation 
+"member_id" => "required|min:2|max:4"
+
+- for the response management 
+return response()->json($validator->errors(),401);

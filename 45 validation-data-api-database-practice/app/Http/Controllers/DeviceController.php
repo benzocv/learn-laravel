@@ -10,13 +10,14 @@ class DeviceController extends Controller
 {
     function testData(Request $req){
         $rules = array(
-            "member_id" => "required"
+            "member_id" => "required|min:2|max:4"
         );
         $validator = Validator::make($req->all(),$rules);
         if($validator->fails()){
-            return $validator-> errors();
+            return response()->json($validator->errors(),401);
         }else{
             return ['x'=>$req];
+            // save code 
         }
     //    return ['x'=>$req];
     }
