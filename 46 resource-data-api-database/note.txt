@@ -1,0 +1,9 @@
+- What is resource? 
+- its a function in controller which manages all the routes in a single go 
+
+
+
+- how 
+
+- this will create automatic generated resources 
+//php artisan make:controller MemberController --resource
