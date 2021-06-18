@@ -5,3 +5,22 @@
 - create model, controller
 - give route
 //Route::post('save',[DeviceController::class,'testData']);
+
+
+- creating a validation if member id not present in it
+- import validator class in controller
+
+- required validation on member_id 
+
+//    function testData(Request $req){
+//        $rules = array(
+//            "member_id" => "required"
+//        );
+//        $validator = Validator::make($req->all(),$rules);
+//        if($validator->fails()){
+//            return $validator-> errors();
+//        }else{
+//            return ['x'=>$req];
+//        }    
+//    }
+//}
