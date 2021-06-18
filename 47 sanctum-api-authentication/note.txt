@@ -3,3 +3,7 @@ https://github.com/anil-sidhu/laravel-sanctum
 
 - to install sanctum package 
 composer require laravel/sanctum
+
+- Publish the Sanctum configuration and migration files .
+php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+
