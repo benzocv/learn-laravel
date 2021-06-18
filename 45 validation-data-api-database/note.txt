@@ -1,1 +1,7 @@
 - validating data before doing anything with it
+
+- how
+
+- create model, controller
+- give route
+//Route::post('save',[DeviceController::class,'testData']);

@@ -20,4 +20,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::get('search/{name}',[DeviceController::class,'search']);
+Route::post('save',[DeviceController::class,'testData']);

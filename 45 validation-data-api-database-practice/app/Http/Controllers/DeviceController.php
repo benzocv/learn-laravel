@@ -7,8 +7,7 @@ use App\Models\Device;
 
 class DeviceController extends Controller
 {
-    function search($name){
-        // return Device::where("name",$name)->get();
-        return Device::where("name","like","%".$name."%")->get();
+    function testData(Request $req){
+       return ['x'=>'y'];
     }
 }
