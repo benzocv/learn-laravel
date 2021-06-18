@@ -118,3 +118,17 @@ POST http://127.0.0.1:8000/api/login
 	"email": "john@doe.com",
 	"password":"password"
 }
+
+
+- Make Details API or any other with secure route
+
+Route::group(['middleware' => 'auth:sanctum'], function(){
+    //All secure URL's
+
+    });
+
+
+Route::post("login",[UserController::class,'index']);
+
+
+- add authentication in key and Bearer {token} for request
