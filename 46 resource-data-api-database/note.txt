@@ -7,3 +7,12 @@
 
 - this will create automatic generated resources 
 //php artisan make:controller MemberController --resource
+
+- crete model
+//php artisan make:model Member
+
+- to use all in a single route
+//Route::apiResource("member",MemberController::Class);
+
+- go to index function in controller
+- use get method to access index function 

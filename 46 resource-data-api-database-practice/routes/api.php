@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DeviceController;
+use App\Http\Controllers\MemberController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +21,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::get('search/{name}',[DeviceController::class,'search']);
+Route::apiResource("member",MemberController::Class);
