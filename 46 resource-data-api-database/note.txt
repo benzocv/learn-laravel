@@ -16,3 +16,10 @@
 
 - go to index function in controller
 - use get method to access index function 
+
+
+- to fetch all data via index function 
+//public function index()
+//{
+//    return Member::all();
+//}
