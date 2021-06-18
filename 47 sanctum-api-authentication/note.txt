@@ -91,3 +91,30 @@ class UserController extends Controller
 
 
 
+- postman code to check 
+
+
+{
+    "user": {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@doe.com",
+        "email_verified_at": null,
+        "created_at": null,
+        "updated_at": null
+    },
+    "token": "AbQzDgXa..."
+}
+
+
+- change the route
+Route::post('login',[UserController::class,'index']);
+
+
+
+POST http://127.0.0.1:8000/api/login
+
+{
+	"email": "john@doe.com",
+	"password":"password"
+}
