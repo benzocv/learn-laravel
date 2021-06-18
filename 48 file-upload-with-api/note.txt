@@ -1,0 +1,2 @@
+- Create controller
+//php artisan make:controller FileController
