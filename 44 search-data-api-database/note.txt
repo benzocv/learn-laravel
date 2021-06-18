@@ -15,3 +15,6 @@ http://127.0.0.1:8000/api/search/{string}
 
 - search like this 
 //http://127.0.0.1:8000/api/search/computer/
+
+- to search on a character base this \
+//return Device::where("name","like","%".$name."%")->get();
