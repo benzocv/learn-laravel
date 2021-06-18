@@ -8,6 +8,6 @@ use App\Models\Device;
 class DeviceController extends Controller
 {
     function search($name){
-        return ['result'=>'result'.$name];
+        return Device::where("name",$name)->get();
     }
 }
